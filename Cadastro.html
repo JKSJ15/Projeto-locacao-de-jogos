@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cadastro Cliente</title>
+    <link rel="shortcut icon" type="imagex/png" href="images/icone.locadora.png">
+</head>
+<body>
+    <header>
+        <h1>Cadastro Cliente</h1>
+    </header>
+     <nav>
+        <a href="index.html">Home</a>
+        <a href="Cadastro.html">Cadastro</a>
+        <a href="contato.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+
+    
+     
+    <form method="post" action="cadastro.php>">
+
+        <fieldset name="fundodocadastro">
+        <legend><b>Cadastro de Clientes</b></legend>
+            <div class="nome">
+                <Label for="Nome">Nome:</Label>
+                <input type="text" name="Nome"/>
+            </div>
+        <br/> <br/>
+        <div class="telefone">
+            <Label for="Nome">Telefone fixo:</Label>
+            <input type="tel" placeholder="(xx) xxxxx-xxxx" name="Numero"/>
+        </div>
+        <br/> <br/>
+        <div class="whatsapp">
+            <Label for="Nome">Whatsapp:</Label>
+            <input type="tel" placeholder="(xx) xxxxx-xxxx" name="Numero"/>
+        </div>
+        <br/> <br/>
+        <div class="email">
+            <Label for="email">Email:</Label>
+            <input type="text" name="email"/>
+        </div>
+        <br/> <br/>
+        <div class="senha">
+            <Label for="senha">Senha:</Label>
+            <input type="password" name="Senha"/>
+        </div>
+        <br/> <br/>
+        
+        <div class="estado">
+            <Label for="Estado">Estado:</Label>
+            <select name="estados">
+                <option value="" disabled selected>Selecione um estado</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        <br/> <br/>
+
+        <div class="site-pessoal">
+            <label for="site">Site pessoal:</label>
+            <input type="text" name="site"/>
+            <imput type="url"/>
+        </div>
+        <br/> <br/>
+
+        <div class="sexo">
+            <label>Sexo:</label>
+            <input type="radio" name="Sexo" value="m"/>
+            <label for="Masculino">Masculino</label>
+            <input type="radio" name="Sexo" value="f"/>
+            <label for="Feminino">Feminino</label>
+        </div>
+        <br/> <br/>
+
+        <input type="checkbox" id="envio_email" name="envio_email" value="sim"/>
+        <label for ="envio_email">Quero receber por email informações sobre produtos</label>
+        <br/> <br/>
+        
+        <input name="botao1" type="submit" value="cadastrar"/>
+        <input name="botao2" type="reset" value="limpar"/>
+
+        </fieldset>
+    </form>
+    
+</body>
+<footer>
+    <p>Fale Conosco: loconsolecrazy3415@gmail.com </p>
+    <a href="Contato.html">Mais Contato</a>
+    <p>CNPJ: 8573657-101 </p>
+    <p>Sobre: A equipe 2 do trabalho de locação da ETE josé Humberto de moura Cavalcanti atua na área e estará sempre aqui quando precisar  </p>
+    <a href="sobre.html" name="link">Veja Mais</a>
+</footer>
+</html>
